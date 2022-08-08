@@ -28,7 +28,6 @@ do while .t.
 
    do while nMultiplicando <= 10
 
-
       @ 06,06 to 18,06
       @ 06,11 to 18,11
       @ 06,01 to 18,17
@@ -42,7 +41,6 @@ do while .t.
 
       nMultiplicando := nMultiplicando + 1
       nLinha         := nLinha + 1
-
    enddo
 
    nAlertNovaTabuada := Alert("Deseja exibir nova tabuada?", {"Sim", "Nao"})
@@ -51,5 +49,4 @@ do while .t.
    elseif nAlertNovaTabuada == 2
       Exit
    endif
-
 enddo
