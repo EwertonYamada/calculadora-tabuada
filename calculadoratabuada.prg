@@ -22,7 +22,6 @@ do while .t.
             Loop
          endif
       endif
-
       Exit
    enddo
 
